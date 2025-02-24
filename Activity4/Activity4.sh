@@ -9,7 +9,7 @@ if ! [[ $grade =~ ^-?[0-9]+$ ]];
     exit 1
 fi
 
-if [ $grade" -ge 90 ] && [ $grade -le 100 ];
+if [ $grade -ge 90 ] && [ $grade -le 100 ];
     then 
     echo "Grade A"
 elif [ $grade -ge 80 ] && [ $grade -le 89 ];
