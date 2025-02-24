@@ -21,7 +21,7 @@ elif [ $grade -ge 70 ] && [ $grade -le 79 ];
 elif [ $grade -ge 60 ] && [ $grade -le 69 ];
     then 
     echo "Grade D"
-elif [ $grade -lt 59 ]; 
+elif [ $grade -ge 0 ] && [ $grade -lt 60 ]; 
     then 
     echo "Grade F"
 else 
